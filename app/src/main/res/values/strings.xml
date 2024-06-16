@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PsycheCare</string>
+    <string-array name="issues_array">
+        <item>Stress - căng thẳng</item>
+        <item>Anxiety - lo âu</item>
+        <item>Depression - trầm cảm</item>
+        <item>Anger Management - kiểm soát cơn giận</item>
+        <item>Loneliness - cô đơn</item>
+        <item>Grief - nỗi buồn</item>
+        <item>Low self-esteem - tự ti</item>
+        <item>Relationship issues - vấn đề quan hệ</item>
+        <!-- Thêm các vấn đề tâm lý khác nếu cần -->
+    </string-array>
+    <string-array name="times_array">
+        <item>08:00-09:00 AM</item>
+        <item>09:00-10:00 AM</item>
+        <item>10:00-11:00 AM</item>
+        <item>11:00-12:00 PM</item>
+        <item>12:00-01:00 PM</item>
+        <item>01:00-02:00 PM</item>
+        <item>02:00-03:00 PM</item>
+        <item>03:00-04:00 PM</item>
+        <item>04:00-05:00 PM</item>
+        <!-- Thêm các khoảng thời gian khác nếu cần -->
+    </string-array>
+
+
+</resources>

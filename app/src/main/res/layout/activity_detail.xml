@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivDoctor"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_person"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivDoctor"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Doctor Name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvSpecialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:text="Specialty"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSpecialty"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="Gender"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGender"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="Experience"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvExperience"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="Phone Number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvConsultationFee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhoneNumber"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="Consultation Fee"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnBookAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvConsultationFee"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:text="Đặt lịch" />
+
+</RelativeLayout>
